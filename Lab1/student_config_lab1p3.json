@@ -1,0 +1,36 @@
+{
+  "pkg_name": "comp2402w23l1",
+  "main_java_file": "Part3",
+  "test_subdir": null,
+  "test_cases": [
+    {
+      "name": "0 - compilation only",
+      "infile":"lab1-p3-0-in.txt",
+      "outfile":"lab1-p3-0-out.txt"
+    },
+    {
+      "name": "1 - empty file",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "infile":"lab1-p3-1-in.txt",
+      "outfile":"lab1-p3-1-out.txt"
+    },
+    {
+      "name": "2 - two multiples",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "infile":"lab1-p3-2-in.txt",
+      "outfile":"lab1-p3-2-out.txt"
+    },
+    {
+      "name": "3 - a few lines, some multiples",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "infile":"lab1-p3-3-in.txt",
+      "outfile":"lab1-p3-3-out.txt"
+    },
+    {
+      "name": "4 - a few lines, no multiples",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "infile":"lab1-p3-4-in.txt",
+      "outfile":"lab1-p3-4-out.txt"
+    }
+  ]
+}

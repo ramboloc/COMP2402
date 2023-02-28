@@ -1,0 +1,48 @@
+{
+  "pkg_name": "comp2402w23l1",
+  "main_java_file": "Part4",
+  "test_subdir": null,
+  "test_cases": [
+    {
+      "name": "0 - compilation only",
+      "params": ["4"],
+      "infile":"lab1-p4-0-in.txt",
+      "outfile":"lab1-p4-0-out.txt"
+    },
+    {
+      "name": "1 - empty file",
+      "params": ["4"],
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "infile":"lab1-p4-1-in.txt",
+      "outfile":"lab1-p4-1-out.txt"
+    },
+    {
+      "name": "2 - one line output",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "params": ["4"],
+      "infile":"lab1-p4-2-in.txt",
+      "outfile":"lab1-p4-2-out.txt"
+    },
+    {
+      "name": "3 - no output on non-empty file",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "params": ["4"],
+      "infile":"lab1-p4-3-in.txt",
+      "outfile":"lab1-p4-3-out.txt"
+    },
+    {
+      "name": "4 - multiple multiples output",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "params": ["4"],
+      "infile":"lab1-p4-4-in.txt",
+      "outfile":"lab1-p4-4-out.txt"
+    },
+    {
+      "name": "5 - random numbers some negative",
+      "flags": ["-Xss144k", "-Xmx6m"],
+      "params": ["4"],
+      "infile":"lab1-p4-5-in.txt",
+      "outfile":"lab1-p4-5-out.txt"
+    }
+  ]
+}
