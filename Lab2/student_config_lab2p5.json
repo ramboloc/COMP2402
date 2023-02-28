@@ -1,0 +1,66 @@
+{
+  "pkg_name": "comp2402w23l2",
+  "main_java_file": "Part5",
+  "test_subdir": null,
+  "test_cases": [
+    {
+      "name": "0 - compilation only",
+      "infile":"lab2-p5-1-in.txt",
+      "outfile":"lab2-p5-1-out.txt"
+    },
+    {
+      "name": "1 - empty file",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-1-in.txt",
+      "outfile":"lab2-p5-1-out.txt"
+    },
+    {
+      "name": "2 - last block is full",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-2-in.txt",
+      "outfile":"lab2-p5-2-out.txt"
+    },
+    {
+      "name": "3 - last block not full",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-3-in.txt",
+      "outfile":"lab2-p5-3-out.txt"
+    },
+    {
+      "name": "4 - reversing the blocks correctly",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-4-in.txt",
+      "outfile":"lab2-p5-4-out.txt"
+    },
+    {
+      "name": "5 - need circular-array indexing",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-5-in.txt",
+      "outfile":"lab2-p5-5-out.txt"
+    },
+    {
+      "name": "6 - from the specifications",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-6-in.txt",
+      "outfile":"lab2-p5-6-out.txt"
+    },
+    {
+      "name": "7 - needs mod 240223",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-7-in.txt",
+      "outfile":"lab2-p5-7-out.txt"
+    },
+    {
+      "name": "8 - avoids integer overflow",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-8-in.txt",
+      "outfile":"lab2-p5-8-out.txt"
+    },
+    {
+      "name": "9 - random file with 10 lines",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p5-9-in.txt",
+      "outfile":"lab2-p5-9-out.txt"
+    }
+  ]
+}

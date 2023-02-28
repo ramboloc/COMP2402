@@ -1,0 +1,48 @@
+{
+  "pkg_name": "comp2402w23l2",
+  "main_java_file": "Part1",
+  "test_subdir": null,
+  "test_cases": [
+    {
+      "name": "0 - compilation only",
+      "params": ["10"],
+      "infile":"lab2-p1-0-in.txt",
+      "outfile":"lab2-p1-0-out.txt"
+    },
+    {
+      "name": "1 - empty file",
+      "params": ["10"],
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p1-0-in.txt",
+      "outfile":"lab2-p1-0-out.txt"
+    },
+    {
+      "name": "2 - all mults of x^2 then all mults of x",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "params": ["10"],
+      "infile":"lab2-p1-1-in.txt",
+      "outfile":"lab2-p1-1-out.txt"
+    },
+    {
+      "name": "3 - interleaved mults of x^2 and x, also diff sizes",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "params": ["10"],
+      "infile":"lab2-p1-2-in.txt",
+      "outfile":"lab2-p1-2-out.txt"
+    },
+    {
+      "name": "4 - no mults of x after last x^2",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "params": ["4"],
+      "infile":"lab2-p1-3-in.txt",
+      "outfile":"lab2-p1-3-out.txt"
+    },
+    {
+      "name": "5 - file with mults of x, x^2, and neither",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "params": ["10"],
+      "infile":"lab2-p1-4-in.txt",
+      "outfile":"lab2-p1-4-out.txt"
+    }
+  ]
+}

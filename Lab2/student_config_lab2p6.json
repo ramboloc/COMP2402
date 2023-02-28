@@ -1,0 +1,77 @@
+{
+  "pkg_name": "comp2402w23l2",
+  "main_java_file": "Part6",
+  "test_subdir": null,
+  "test_cases": [
+    {
+      "name": "0 - compilation only",
+      "infile":"lab2-p6-1-in.txt",
+      "outfile":"lab2-p6-1-out.txt",
+      "params": ["3"]
+    },
+    {
+      "name": "1 - empty file",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-1-in.txt",
+      "outfile":"lab2-p6-1-out.txt",
+      "params": ["3"]
+    },
+    {
+      "name": "2 - n=15, x=3, only shift R no circular",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-2-in-x-3.txt",
+      "outfile":"lab2-p6-2-out.txt",
+      "params": ["3"]
+    },
+    {
+      "name": "3 - n=15, x=3, only shift L no circular",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-3-in-x-3.txt",
+      "outfile":"lab2-p6-3-out.txt",
+      "params": ["3"]
+    },
+    {
+      "name": "4 - n=24, x=4, only shift R, needs circular treatment",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-4-in-x-4.txt",
+      "outfile":"lab2-p6-4-out.txt",
+      "params": ["4"]
+    },
+    {
+      "name": "5 - n=24, x=4, only shift L, needs circular treatment",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-5-in-x-4.txt",
+      "outfile":"lab2-p6-5-out.txt",
+      "params": ["4"]
+    },
+    {
+      "name": "6 - n=24, x=5, only shift L last group not full",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-6-in-x-5.txt",
+      "outfile":"lab2-p6-6-out.txt",
+      "params": ["5"]
+    },
+    {
+      "name": "7 - n=23, x=6, empties out the last group with L and R shifts",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-7-in-x-6.txt",
+      "outfile":"lab2-p6-7-out.txt",
+      "params": ["6"]
+
+    },
+    {
+      "name": "8 - n=24, x=6, empties out the first group with L and R shifts",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-8-in-x-6.txt",
+      "outfile":"lab2-p6-8-out.txt",
+      "params": ["6"]
+    },
+    {
+      "name": "9 - random file with 100 lines",
+      "flags": ["-Xss208k", "-Xmx6m"],
+      "infile":"lab2-p6-9-in-x-10.txt",
+      "outfile":"lab2-p6-9-out.txt",
+      "params": ["10"]
+    }
+  ]
+}
